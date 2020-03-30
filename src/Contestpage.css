@@ -1,0 +1,39 @@
+table {
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-collapse: collapse;
+    overflow: auto;
+    margin: 15px;
+    width:70%;
+}
+th{
+    border-bottom: 2px solid #364043;
+    color: #E2B842;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: left;
+}
+td{
+    color: #fff;
+    padding: 10px 15px;
+}
+tbody tr:hover {
+    background: #222222;
+}
+.rankList{
+    width: 100%;
+}
+.contestInfo{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin:5px 15px 15px 15px;
+    float:right;    
+}
+.timer{
+    float: left;
+    margin: 0px 15px 15px 15px;
+}
